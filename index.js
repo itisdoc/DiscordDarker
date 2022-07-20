@@ -1,4 +1,4 @@
-if (document.getElementById('d-darker')) { return alert('You already injected D-Darker.') };
+if (document.getElementById('d-darker')) { alert('You already injected D-Darker.') } else {
 let code = document.createElement('style'); code.id = "d-darker";
 code.innerText=`
 /* MADE BY DUNE STUDIOS. DO NOT PLAIGERIZE!! */
@@ -102,4 +102,5 @@ function keydown(evt){
     delcode.delete()
     alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
   }
+}
 }
