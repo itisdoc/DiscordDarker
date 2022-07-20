@@ -9,6 +9,10 @@ color: white; } .member-2gU6Ar { margin-right: 10px; } .form-3gdLxP, .webkit-QgS
 ```
 
 **NOTE: Don't like it? Just refresh the page and it'll be gone!**
+**ANOTHER NOTE: Does the image below not look like what the CSS made? Try doing this instead:**
+```js
+let code = document.createElement('style') code.innerText=`/* PUT CONTENT OF DARK.CSS IN HERE */`; document.head.appendChild(code)
+```
 
 ### Screenshot
 ![screenshot1](https://i.ibb.co/VwBQnFW/image.png)
