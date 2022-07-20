@@ -2,8 +2,7 @@
 A custom CSS injector skin for Discord.
 
 # Recommended Settings:
-Appearance: Light Mode with dark sidebar 
-(for best readability. Don't worry! It will still be pretty dark.)
+Appearance: Dark mode (to look better)
 
 # Usage
 Enter this code into the WebTools console, and you get DiscordDarker!
