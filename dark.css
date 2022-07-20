@@ -6,7 +6,7 @@
 
 span,
 .userInfoBody-1zgAd0,
-.clamped-2ZePhX {
+.clamped-2ZePhX, .text-md-normal-304U3g,.fieldList-in8WkP > span, .bodyNormal-250CQK, .contentImagesUserPopout-Kqai8z, .details-2, .defaultColor-24IHKz,.meNoNickname-1TjuLc, .username-3JLfHz {
   color: black;
 }
 
@@ -22,10 +22,18 @@ span,
 .container-YkUktl,
 .authedApp-8q3NA9,
 .ontentColumn-1C7as,
-.app-3xd6d0 {
+.app-3xd6d0, .contentRegion-3HkfJJ, .contentColumn-1C7as6, .contentColumnDefault-3eyv5o, .contentRegionScroller-2_GT_N {
   position: relative;
   background-color: #090909;
 }
+
+    .userInfo-regn9W, .accountProfileCard-lbN7n-, .body-2wLx-E, .bodyInnerWrapper-2bQs1k, .footer-3naVBw, .headerTop-3GPUSF {
+        background-color: white;
+    }
+
+    .background-3d_SjE, .fieldList-in8WkP {
+        background-color: #efefef;
+    }
 
 .thin-31rlnD {
   background-color: relative;
@@ -33,7 +41,7 @@ span,
 
 .editor-H2NA06>span,
 .markup-eYLPri {
-  color: black;
+  color: white;
 }
 
 .scrollerContent-2SW0kQ,
@@ -42,7 +50,7 @@ span,
 .messageContent-2t3eCI,
 .headerText-1qIDDT,
 .subtext-2HDqJ7,
-.customStatus-1UAQAK {
+.customStatus-1UAQAK, .membersGroup-2eiWxl, .membersGroup-2eiWxl, .container-q97qHp {
   color: white;
 }
 
