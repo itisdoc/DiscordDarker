@@ -94,6 +94,6 @@ document.head.appendChild(code);
 alert('DiscordDarker was installed! Use window.closeDiscordDarker() in the console to close it!')
 window.closeDiscordDarker = function() {
     let delcode = document.getElementById('d-darker')
-    delcode.delete()
+    delcode.remove()
     alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
 }
