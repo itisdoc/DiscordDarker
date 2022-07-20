@@ -18,4 +18,8 @@ let code = document.createElement('style') code.innerText=`/* PUT CONTENT OF DAR
 ```
 
 ### Screenshot
+On discord's dark mode</br>
 ![screenshot1](https://i.ibb.co/VwBQnFW/image.png)
+
+On discord's light mode + dark sidebar
+![ltmd-screenshot](https://i.ibb.co/TwmkTzj/image.png)
