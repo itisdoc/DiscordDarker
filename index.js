@@ -1,4 +1,4 @@
-if (document.getElementById('d-darker')) return alert('You already injected D-Darker.');
+if (document.getElementById('d-darker')) { return alert('You already injected D-Darker.') };
 let code = document.createElement('style'); code.id = "d-darker";
 code.innerText=`
 /* MADE BY DUNE STUDIOS. DO NOT PLAIGERIZE!! */
