@@ -1,4 +1,12 @@
-if (document.getElementById('d-darker')) { alert('You already injected D-Darker.') } else {
+window.closeDiscordDarker = function() {
+    let delcode = document.getElementById('d-darker')
+    if (!document.getElementById('d-darker')) { return new Error('d-darker isnt injected') }
+    delcode.remove()
+    alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
+}
+ 
+ window.openDiscordDarker = function() {
+   if (document.getElementById('d-darker')) { alert('You already injected D-Darker.') } else {
 let code = document.createElement('style'); code.id = "d-darker";
 code.innerText=`
 /* MADE BY DUNE STUDIOS. DO NOT PLAIGERIZE!! */
@@ -91,9 +99,7 @@ em {
 }
 `;
 document.head.appendChild(code);
-alert('DiscordDarker was installed! Use window.closeDiscordDarker() in the console to close it!')
-window.closeDiscordDarker = function() {
-    let delcode = document.getElementById('d-darker')
-    delcode.remove()
-    alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
+alert('DiscordDarker was injected! Use window.closeDiscordDarker() in the console to close it!')
 }
+  
+alert('DiscordDarker was loaded! To start using it, enter window.openDiscordDarker() in the devtools console.')
