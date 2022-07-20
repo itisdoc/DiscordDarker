@@ -9,5 +9,6 @@ function keydown(evt){
   if (evt.ctrlKey && evt.altKey && evt.keyCode==68){ //CTRL+ALT+F4
     let delcode = document.getElementById('d-darker')
     delcode.delete()
+    alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
   }
 }
