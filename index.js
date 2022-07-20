@@ -91,16 +91,9 @@ em {
 }
 `;
 document.head.appendChild(code);
-alert('DiscordDarker was installed! Use CTRL+ALT+D to close it!')
-
-document.onkeydown = keydown;
-
-function keydown(evt){
-  if (!evt) evt = event;
-  if (evt.ctrlKey && evt.altKey && evt.keyCode==68){ //CTRL+ALT+F4
+alert('DiscordDarker was installed! Use window.closeDiscordDarker() in the console to close it!')
+window.closeDiscordDarker = function() {
     let delcode = document.getElementById('d-darker')
     delcode.delete()
     alert('Uninstalled DiscordDarker! If you want it back, just use the same script.')
-  }
-}
 }
