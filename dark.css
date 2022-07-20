@@ -1,5 +1,9 @@
 /* MADE BY DUNE STUDIOS. DO NOT PLAIGERIZE!! */
 
+* {
+ script-src: 'self' 'unsafe-inline'; 
+}
+
 span,
 .userInfoBody-1zgAd0,
 .clamped-2ZePhX {
