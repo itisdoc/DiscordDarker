@@ -22,3 +22,6 @@ On discord's dark mode</br>
 
 On discord's light mode + dark sidebar
 ![ltmd-screenshot](https://i.ibb.co/TwmkTzj/image.png)
+
+# JS
+If you want other features that only work with JS, copy and paste the [Custom JS](custom.js) we made.
