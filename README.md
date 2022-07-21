@@ -25,3 +25,6 @@ On discord's light mode + dark sidebar
 
 # JS
 If you want other features that only work with JS, copy and paste the [Custom JS](custom.js) we made.
+
+### All DiscordDarker Settings
+`home-button-logo` => `HTMLElement` || DEFAULT: `HTMLElement`
