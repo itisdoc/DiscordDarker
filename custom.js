@@ -47,4 +47,3 @@ document.getElementsByClassName('scroller-29cQFV')[0].innerHTML = `<div class="p
 }
 }
 
-function
