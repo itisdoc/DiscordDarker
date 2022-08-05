@@ -4,6 +4,9 @@ A custom CSS injector skin for Discord.
 # Recommended Settings:
 Appearance: Dark mode (to look better)
 
+# UPDATE
+The upcoming new version of [CustomCord](https://github.com/trisn0w/customcord/releases/latest) supports DiscordDarker, and will have it pre-installed.
+
 # Usage
 Enter this code into the WebTools console, and you get DiscordDarker!
 ```js
